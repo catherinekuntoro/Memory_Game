@@ -4,7 +4,7 @@
 
 Submitted by: **Catherine Kuntoro**
 
-Time spent: **2** hours spent in total
+Time spent: **4** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/memory-game-catherine-k
 
@@ -22,18 +22,18 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
+* [] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [V] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [V] More than 4 functional game buttons
+* [V] Playback speeds up on each turn
+* [V] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
-* [ ] Game button appearance change goes beyond color (e.g. add an image)
+* [V] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [V] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
-
+* Added "@media only screen and (max-width: 600px)" so that users with a screen width of less than 600 will see a smaller button size
 
 ## Video Walkthrough
 
@@ -43,7 +43,10 @@ Here's a walkthrough of implemented user stories:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+* https://stackoverflow.com/questions/38870641/how-to-insert-image-on-button-click
+* https://stackoverflow.com/questions/1472705/resetting-a-settimeout
+* https://stackoverflow.com/questions/1191865/code-for-a-simple-javascript-countdown-timer
+* https://www.w3schools.com/cssref/pr_background-image.asp
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [YOUR ANSWER HERE]

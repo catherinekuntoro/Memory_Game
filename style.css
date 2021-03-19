@@ -4,11 +4,11 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   background-color: lavenderblush;
-  color: lightsalmon 
+  color: lightsalmon;
 }
 
 h1 {
-  font-family: verdana, arial, sans-serif; 
+  font-family: verdana, arial, sans-serif;
   font-style: italic;
   color: indianred;
 }
@@ -19,39 +19,93 @@ button {
 }
 
 #gameButtonArea > button {
-  width:200px;
-  height:200px;
-  margin:2px;
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+}
+/* If [device width] is less than or equal to 
+600px, then do {…}
+*/
+@media only screen and (max-width: 600px) {
+  #gameButtonArea > button {
+    width: 70px;
+    height: 70px;
+    margin: 2px;
+  }
 }
 
-#button1{
+#button1 {
   background: lightgreen;
 }
-#button1:active, #button1.lit{
-  background: green;
+#button1:active,
+#button1.lit {
+  background-image: url("https://cdn.glitch.com/9e6cc435-419b-4081-995c-fac026564b19%2FFreckles_NH.png?v=1615453147626");
+  background-color: green;
 }
 
-#button2{
-  background: lightblue
+#button2 {
+  background: lightblue;
 }
-#button2:active, #button2.lit{
-  background: blue;
-}
-
-#button3{
-  background: pink
-}
-#button3:active, #button3.lit{
-  background: red;
+#button2:active,
+#button2.lit {
+  background-image: url("https://cdn.glitch.com/9e6cc435-419b-4081-995c-fac026564b19%2FKetchup_NH.png?v=1615457323039");
+  background-color: blue;
 }
 
-#button4{
+#button3 {
+  background: pink;
+}
+#button3:active,
+#button3.lit {
+  background-image: url("https://cdn.glitch.com/9e6cc435-419b-4081-995c-fac026564b19%2FJoey_NH.png?v=1615457305993");
+  background-color: red;
+}
+
+#button4 {
   background: lightyellow;
 }
-#button4:active, #button4.lit{
-  background: yellow;
+#button4:active,
+#button4.lit {
+  background-image: url("https://cdn.glitch.com/9e6cc435-419b-4081-995c-fac026564b19%2FMaelle_NH.png?v=1615457331669");
+  background-color: yellow;
 }
 
-.hidden{
+#button5 {
+  background: aquamarine;
+}
+#button5:active,
+#button5.lit {
+  background-image: url("https://cdn.glitch.com/9e6cc435-419b-4081-995c-fac026564b19%2FMolly_NH.png?v=1615457351715");
+  background-color: turquoise;
+}
+
+#button6 {
+  background: violet;
+}
+#button6:active,
+#button6.lit {
+  background-image: url("https://cdn.glitch.com/9e6cc435-419b-4081-995c-fac026564b19%2FScoot_NH.png?v=1615457367200");
+  background-color: magenta;
+}
+
+#button7 {
+  background: peachpuff;
+}
+#button7:active,
+#button7.lit {
+  background-image: url("https://cdn.glitch.com/9e6cc435-419b-4081-995c-fac026564b19%2FGloria_NH.png?v=1615457294908");
+  background-color: darkorange;
+}
+
+#button8 {
+  background: cornflowerblue;
+}
+#button8:active,
+#button8.lit {
+  background-image: url("https://cdn.glitch.com/9e6cc435-419b-4081-995c-fac026564b19%2FPompom_NH.png?v=1615457360152");
+  background-color: purple;
+}
+
+.hidden {
   display: none;
 }
