@@ -3,8 +3,16 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: lavenderblush;
   color: lightsalmon;
+  background-image: linear-gradient(lavenderblush, antiquewhite);
+  height: 100%
+}
+
+@media only screen and (max-width: 100px) {
+  body {
+    background-image: linear-gradient(lavenderblush, antiquewhite);
+    height: 100%
+  }
 }
 
 h1 {
@@ -33,7 +41,7 @@ button {
     margin: 2px;
   }
 }
-
+/* background-image overlays a picture over the background color*/
 #button1 {
   background: lightgreen;
 }
